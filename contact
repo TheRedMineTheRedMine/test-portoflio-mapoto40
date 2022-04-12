@@ -1,0 +1,31 @@
+const Form = () =>{
+    return (
+        <div className="background_form_contact">
+            <div className="separation_content_form_contact">
+                <div className="width_form_contact">
+                    <h2>Want to get in touch with me? <br/> You can drop me a line !</h2>
+                    <p className="gray_text">If you prefer to contact me on discord my name is: le criquet#3627</p>
+                    
+                        <div className="Div_Flex_form_contact">
+                            <div>
+                                <label>NAME</label> <br/>
+                                <input className="input1_name_form_contact" placeholder="Enter your name"/>
+                            </div>
+
+                            <div>
+                                <label>EMAIL ADDRESS</label> <br/>
+                                <input className="input1_name_form_contact" placeholder="Enter your email"/>
+                            </div>
+                        </div> 
+
+                    <div className="padding_form_contact">
+                        <label>EMAIL ADDRESS</label> <br/>
+                        <textarea className="textarea2_name_form_contact" placeholder="Enter your email"/>
+                    </div>
+                        
+                    <button>SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    )
+}
